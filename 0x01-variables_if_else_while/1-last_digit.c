@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
 * main - Entry point
-* Description : get the last degit of a random number
+* pribtf -  get the last degit of a random number
 * Return: Always 0 (Success)
 */
 int main(void)
