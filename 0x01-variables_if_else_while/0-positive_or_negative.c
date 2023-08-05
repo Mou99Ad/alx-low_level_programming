@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - print the stat of a random number each time it is executed
-* printf - This is a description
+* main - Entry point
+* printf - print the stat of a random number each time it is executed
 * Return: Always 0 (Success)
 */
 int main(void)
