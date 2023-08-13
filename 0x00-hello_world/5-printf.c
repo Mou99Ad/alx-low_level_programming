@@ -2,7 +2,7 @@
 /**
  * main - Entry point of the program
  * Description : C program that uses printf function followed by a newline
- * Return : 0 (success)
+ * Return: 0 (success)
 */
 
 int main(void)
