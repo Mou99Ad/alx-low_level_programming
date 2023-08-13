@@ -1,11 +1,13 @@
 #include <stdio.h>
 /**
-* main - Entry point
-* printf - This is a description
-* Return: Always 0 (success)
+ * Main - Entry point of the program
+ * Description : C program that uses printf function followed by a newline
+ * Return : 0 for success, non-zero for failure
 */
-int main(void)
+
+int main()
 {
-	printf("with proper grammar, but the outcome is a piece of art,/n");
-	return (0);
+    printf("with proper grammar, but the outcome is a piece of art,");
+    return 0;
 }
+
