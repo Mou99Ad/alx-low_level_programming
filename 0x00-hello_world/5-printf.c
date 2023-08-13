@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry point of the program
- * Description : C program that uses printf function followed by a newline
- * Return: 0 (success)
+ * Description: C program that uses printf function followed by a newline
+ * Return: 0 for success, non-zero for failure
 */
 
 int main(void)
