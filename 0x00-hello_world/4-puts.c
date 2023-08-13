@@ -1,11 +1,13 @@
 #include <stdio.h>
 /**
-*main - main entry point
-*puts - This is a description
-*return: always 0 (success)
+ * main - Entry  main point
+ * Description - A C program that uses the puts function to print a string followed by a newline.
+ * return - 0 for success, non-zero for failure
 */
-int main(void)
+
+int main()
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+	return 0;
 }
+
