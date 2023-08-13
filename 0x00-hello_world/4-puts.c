@@ -2,7 +2,7 @@
 /**
  * main - Entry point of the program
  * Description : c program uses the puts function to print a string
- * return : always 0 (success)
+ * return : 0 for success
 */
 
 int main(void)
