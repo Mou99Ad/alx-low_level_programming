@@ -1,9 +1,7 @@
 #include <stdio.h>
 /**
-* main - Entry point
-*
-* Description : This function prints alphabets in lowercase, then in uppercase
-*
+* main - Entry main point
+* Description: This function prints alphabets in lowercase
 * Return: Always 0 (Success)
 */
 
@@ -15,6 +13,6 @@ int main(void)
 	{
 	putchar(ch);
 	}
-	putchar('\n');
+	putchar('\n'); // to print a new line
 	return (0);
 }
