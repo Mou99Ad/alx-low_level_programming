@@ -1,22 +1,27 @@
 #include <stdio.h>
 
-/**
+ /**
 * main - Entry point
-*
+* Descp: prints alphabet in lowercase, then in uppercase uses putchar
 * Return: Always 0 (Success)
-*/
+ */
+
 int main(void)
 {
-	char ch1, ch2;
+	char ch;
 
-	for (ch1 = 'a'; ch1 <= 'z'; ch1++)
-	{
-	putchar(ch1);
-	}
-	for (ch2 = 'A'; ch2 <= 'Z'; ch2++)
-	{
-	putchar(ch2);
-	}
-	putchar('\n');
+	/** Print lowercase alphabet */
+	for (ch = 'a'; ch <= 'z'; ch++)
+		{
+		putchar(ch);
+		}
+
+	/** Print uppercase alphabet */
+	for (ch = 'A'; ch <= 'Z'; ch++)
+		{
+		putchar(ch);
+		}
+
+	putchar('\n'); /** Print a new line */
 	return (0);
 }
