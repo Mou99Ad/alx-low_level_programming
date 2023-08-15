@@ -1,12 +1,16 @@
 #include "main.h"
 
 /**
-* main - Entry point
-*
-* Return: Always 0 (success)
+ * main - Entry point
+ * Description: This function starts program execution.
+ * It uses _putchar to print "_putchar" and a newline.
+ * Each character is printed individually.
+ * Return: Always 0 (success)
 */
+
 int main(void)
 {
+	/** Call _putchar function to print individual characters */
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
