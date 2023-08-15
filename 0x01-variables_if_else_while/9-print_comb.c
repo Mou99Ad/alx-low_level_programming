@@ -1,10 +1,12 @@
 #include <stdio.h>
 
-/**
+ /**
 * main - Entry point
-*
+* Description: Prints all possible combinations of single-digit numbers.
+*              Numbers are separated by comma and space.
 * Return: Always 0 (Success)
-*/
+ */
+
 int main(void)
 {
 	int i;
@@ -18,6 +20,8 @@ int main(void)
 			putchar(' ');
 		}
 	}
+
 	putchar('\n');
+
 	return (0);
 }
