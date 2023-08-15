@@ -2,22 +2,29 @@
 
 /**
 * main - Entry point
-*
+* Description: all the numbers of base 16 in lowercase using putchar, followed by a new line
 * Return: Always 0 (Success)
 */
+
 int main(void)
 {
-	int m;
-	int n;
+/** Base 16 (hexadecimal) uses digits 0-9 and letters A-F (or a-f) to represent numbers, where A stands for 10, B for 11, and so on up to F for 15 */
+	int digit;
+	int letter;
 
-	for (m = 48; m <= 57 ; m++)
+/** Print numbers '0' to '9' */
+	for (digit = 0; digit <= 9; digit++)
 	{
-		putchar(m);
+	putchar(digit + '0');
 	}
-	for (n = 97; n <= 102 ; n++)
+
+/** Print lowercase hexadecimal characters 'a' to 'f' */
+	for (letter = 'a'; letter <= 'f'; letter++)
 	{
-		putchar(n);
+	putchar(letter);
 	}
+
 	putchar('\n');
-	return (0);
-	}
+
+	return 0;
+}
