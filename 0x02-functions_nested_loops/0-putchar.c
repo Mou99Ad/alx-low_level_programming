@@ -3,8 +3,8 @@
 /**
  * main - Entry point
  * Description: This function starts program execution.
- * It uses _putchar to print "_putchar" and a newline.
- * Each character is printed individually.
+ *		It uses _putchar to print "_putchar" and a newline.
+ *		Each character is printed individually.
  * Return: Always 0 (success)
 */
 
