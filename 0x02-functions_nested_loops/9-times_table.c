@@ -3,7 +3,6 @@
 
 /**
  * times_table - Prints the 9 times table
- * Return: empty output
 */
 
 void times_table(void)
@@ -15,8 +14,6 @@ void times_table(void)
 		for (column = 0; column <= 9; column++)
 		{
 			int result = row * column;
-
-			printf("%2d", result);
 
 			if (column != 0)
 				printf(", ");
