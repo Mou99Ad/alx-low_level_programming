@@ -15,12 +15,14 @@ void times_table(void)
 		for (column = 0; column <= 9; column++)
 		{
 			int result = row * column;
+
 			printf("%2d", result);
 
-			if (column != 9)
+			if (column != 0)
 				printf(", ");
-			else
-				printf("\n");
+
+			printf("%2d", result);
 		}
+		printf("\n");
 	}
 }
