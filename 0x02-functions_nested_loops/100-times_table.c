@@ -2,26 +2,26 @@
 #include <stdio.h>
 
 /**
- * print_times_table - Prints the n times table, starting with 0.
- * @n: The value for which the times table should be printed.
+ * print_times_table - Prints the n times table
+ * @n: The value to determine the size of the times table
 */
 
 void print_times_table(int n)
 {
-	if (n < 0 || n > 15)
-		return;
+	int i, j;
 
-	for (int i = 0; i <= n; i++)
+	if (n >= 0 && n <= 15)
 	{
-		for (int j = 0; j <= n; j++)
+		for (i = 0; i <= n; i++)
 		{
-			int result = i * j;
+			for (j = 0; j <= n; j++)
+			{
+				if (j > 0)
+					printf(", ");
 
-			if (j == 0)
-				printf("%d", result);
-			else
-				printf(", %3d", result);
+				printf("%3d", i * j);
+			}
+			printf("\n");
 		}
-		printf("\n");
 	}
 }
