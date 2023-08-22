@@ -21,7 +21,8 @@ void print_line(int n);
 void print_diagonal(int n);
 /* Function prototype for print_square */
 void print_square(int size);
-
+/* Function prototype for print_square */
+void print_square(int size);
 
 #endif
 
