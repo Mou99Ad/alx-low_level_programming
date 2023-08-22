@@ -19,6 +19,9 @@ void more_numbers(void);
 void print_line(int n);
 /* Function prototype for print_diagonal */
 void print_diagonal(int n);
+/* Function prototype for print_square */
+void print_square(int size);
+
 
 #endif
 
