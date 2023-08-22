@@ -9,6 +9,8 @@ int _isdigit(int c);
 int mul(int a, int b);
 /* Function prototype for print_numbers */
 void print_numbers(void);
+/* Function prototype for _putchar */
+int _putchar(char c);
 
 #endif
 
