@@ -13,6 +13,7 @@ void print_numbers(void);
 int _putchar(char c);
 /* Function prototype for print_most_numbers */
 void print_most_numbers(void);
-
+/* Function prototype for more_numbers */
+void more_numbers(void);
 #endif
 
