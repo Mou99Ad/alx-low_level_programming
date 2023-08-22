@@ -11,6 +11,8 @@ int mul(int a, int b);
 void print_numbers(void);
 /* Function prototype for _putchar */
 int _putchar(char c);
+/* Function prototype for print_most_numbers */
+void print_most_numbers(void);
 
 #endif
 
