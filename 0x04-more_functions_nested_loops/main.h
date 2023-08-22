@@ -17,6 +17,8 @@ void print_most_numbers(void);
 void more_numbers(void);
 /* Function prototype for print_line */
 void print_line(int n);
+/* Function prototype for print_diagonal */
+void print_diagonal(int n);
 
 #endif
 
