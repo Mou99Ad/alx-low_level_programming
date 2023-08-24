@@ -15,7 +15,8 @@ int _strlen_recursion(char *s);
 int factorial(int n);
 /* Function to calculate x raised to the power of y recursively */
 int _pow_recursion(int x, int y);
-
+/* Function to calculate the natural square root of a number recursively */
+int _sqrt_recursion(int n);
 
 
 
