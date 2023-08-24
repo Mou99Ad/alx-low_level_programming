@@ -11,7 +11,8 @@ void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
 /* Function to calculate the length of a string recursively */
 int _strlen_recursion(char *s);
-
+/* Function to calculate the factorial of a number recursively */
+int factorial(int n);
 
 
 
