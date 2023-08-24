@@ -13,7 +13,8 @@ void _print_rev_recursion(char *s);
 int _strlen_recursion(char *s);
 /* Function to calculate the factorial of a number recursively */
 int factorial(int n);
-
+/* Function to calculate x raised to the power of y recursively */
+int _pow_recursion(int x, int y);
 
 
 
