@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int sum;
+	int sum = 0;
 	char c;
 
 	srand(time(NULL));
@@ -20,7 +20,7 @@ int main(void)
 		sum += c;
 		putchar(c);
 	}
-	putchar(2772 - sum);
 
+	putchar(2772 - sum);
 	return (0);
 }
