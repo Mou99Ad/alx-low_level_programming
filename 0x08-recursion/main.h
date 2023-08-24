@@ -9,4 +9,12 @@ int _putchar(char c);
 void _puts_recursion(char *s);
 /* Function to print a string in reverse recursively */
 void _print_rev_recursion(char *s);
+/* Function to calculate the length of a string recursively */
+int _strlen_recursion(char *s);
+
+
+
+
+
+
 #endif
