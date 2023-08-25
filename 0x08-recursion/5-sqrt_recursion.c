@@ -21,7 +21,7 @@ int _sqrt_helper(int n, int guess)
 /**
  * _sqrt_recursion - Returns the natural square root of a number.
  * @n: The input number.
- * Return: The square root of n, or -1 if n does not have a natural square root.
+ * Return:The square root of n, or -1 if n does not have a natural square root.
 */
 
 int _sqrt_recursion(int n)
