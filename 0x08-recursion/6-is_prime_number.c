@@ -15,7 +15,7 @@ int is_prime_number(int n)
 }
 
 /**
- * is_prime_helper - Helper function to check if a number is prime using recursion.
+ * is_prime_helper - function to check if a number is prime using recursion.
  * @n: The input number.
  * @divisor: The current divisor to check.
  * Return: 1 if the number is prime, 0 otherwise.
