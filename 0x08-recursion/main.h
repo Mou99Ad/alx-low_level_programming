@@ -21,5 +21,12 @@ int _sqrt_recursion(int n);
 int is_prime_number(int n);
 /* Forward declaration of is_prime_helper */
 int is_prime_helper(int n, int divisor);
+/* Function to check if a string is a palindrome recursively */
+int is_palindrome(char *s);
+/* Helper function to check palindrome */
+int check_palindrome(char *s, int start, int end);
+
+
+
 
 #endif
