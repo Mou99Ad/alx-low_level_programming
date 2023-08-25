@@ -17,7 +17,8 @@ int factorial(int n);
 int _pow_recursion(int x, int y);
 /* Function to calculate the natural square root of a number recursively */
 int _sqrt_recursion(int n);
-
+/* Function to check if a number is prime recursively */
+int is_prime_number(int n);
 
 
 #endif
