@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 {
 	(void)argc;
 	/* Print the name of the executable */
-printf("%s\n", argv[0]);
+	printf("%s\n", argv[0]);
 
-    return (0);
+	return (0);
 }
