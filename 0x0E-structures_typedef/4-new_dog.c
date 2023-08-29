@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "dog.h"
 
 /**
@@ -15,13 +16,23 @@ dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *new_dog_ptr;
 
-	new_dog_ptr = malloc(sizeof(dog_t));  /* Allocate memory for the new dog */
+	new_dog_ptr = malloc(sizeof(dog_t));
 	if (new_dog_ptr == NULL)
 		return (NULL);
 
-	new_dog_ptr->name = name;  /* Store a copy of the name */
+	/* Use strdup to allocate memory for a duplicate copy of the strings */
+	new_dog_ptr->name = strdup(name);
 	new_dog_ptr->age = age;
-	new_dog_ptr->owner = owner;  /* Store a copy of the owner */
+	new_dog_ptr->owner = strdup(owner);
+
+	/* Check for allocation errors */
+	if (new_dog_ptr->name == NULL || new_dog_ptr->owner == NULL)
+	{
+		free(new_dog_ptr->name);
+		free(new_dog_ptr->owner);
+		free(new_dog_ptr);
+		return (NULL);
+	}
 
 	return (new_dog_ptr);
 }
