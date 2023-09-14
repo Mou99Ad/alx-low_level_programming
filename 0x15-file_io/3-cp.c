@@ -6,7 +6,6 @@
  * main - Copies the content of a file to another file.
  * @argc: The number of arguments.
  * @argv: An array of argument strings.
- *
  * Return: 0 on success, or the corresponding error code on failure.
 */
 int main(int argc, char *argv[])
@@ -46,7 +45,6 @@ int main(int argc, char *argv[])
 			exit(99); /* Exit with code 99 for file write error */
 		}
 	}
-
 	if (rd == -1)
 	{
 		dprintf(2, "Error: Can't read from file %s\n", argv[1]);
@@ -54,7 +52,6 @@ int main(int argc, char *argv[])
 		close(fd_to);
 		exit(98); /* Exit with code 98 for file read error */
 	}
-
 	if (close(fd_from) == -1 || close(fd_to) == -1)
 	{
 		dprintf(2, "Error: Can't close fd %d\n", (close(fd_from) == -1) ? fd_from : fd_to);
